@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="HTML Website"/>
+	<meta name="keywords" content="Beauty Parlour Services"/>
+	<meta name="author" content="Kelly Dianga"/>
+
+	<title>Oracle Hair Salon</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+
+</head>
+
+<body>
+	<div class="backgroundimage">
+		<nav>
+			<ul>
+			<li><a href ="index.html">HOME</a></li>
+			<li><a>SERVICES</a>
+				<ul class="dropdown">
+					<li><a href ="hairsalon.html">HAIR SALON</a></li>
+					<li><a href ="barbershop.html">BARBERSHOP</a></li>
+					<li><a href ="nailsalon.html">NAIL SALON</a></li>
+					<li><a href ="facialsandspa.html">FACIALS</a></li>
+				</ul>
+			</li>
+			<li><a href ="enquiry.html">ENQUIRY</a></li>
+			<li><a href ="aboutme.html">ABOUT ME</a></li>
+			<li><a href ="disclaimer.html">DISCLAIMER</a></li>
+			<li><a href ="enhancement1.html">ENHANCEMENTS</a></li>	
+			</ul>
+		</nav>
+			<div class="text-box">
+			
+			</div>
+
+	</div>
+	
+	<section class ="hairsalon">
+		<div class="hair">
+			<div class="hairlocs">
+				<img src="images/hairlocs.jpg" alt="hairlocs"/>
+				<div class="hairsalon-text">
+					<h2>HAIRLOCS</h2>
+					<h6>Hairlocs hair extensions have amazing quality hair that can last up to a year or longer. 
+					The quality allows you to reuse the hair. They have two methods that are more permanent I-tip and Tape-in.
+					And they also have clip n go extensions which you can easily put on for any special occasion and then easily take them off..</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+			</div>
+			<div class="knotlessbraids">
+				<div class="hairsalon-text">
+					<h2>KNOTLESS BRAIDS</h2>
+					<h6>There are a few reasons why Knotless braids have become trendy in recent years. 
+					They offer a more natural look and are more comfortable than traditional styles since the hair is not pulled as tight. 
+					These braids can be styled in various ways, giving you more options for creating unique looks. Whether you're looking for a more natural style or something more adventurous, you can take the spotlight easily with it.</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+				<img src="images/knotlessbraids.jpg" alt="knotlessbraids"/>
+			</div>
+			<div class="wiginstallation">
+				<img src="images/wiginstallation.jpg" alt="wiginstallation"/>
+				<div class="hairsalon-text">
+					<h2>WIG INSTALLATION</h2>
+					<h6>Wigs are becoming more popular every year, and it comes as no surprise to us. For some, wearing a wig is as simple as any other minor body modification, similar to fake tan or acrylic nails 
+					– changing up your look has never been so easy! Wigs are a solidified contender in the beauty world, with various styles, shapes, and colours so extensive that it’s impossible not to find a wig that you will love.</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+			</div>
+			<div class="haircoloring">
+				<div class="hairsalon-text">
+					<h2>HAIR COLORING</h2>
+					<h6>Being a trendsetter is never so simple because since one must be entirely up to date with all the newest trends, and hairstyling and hair dyeing is perhaps one of the most recent trends. 
+					Hair coloring not only gives a tasteful look but a stylish touch when done. Famous celebs and models get their hair done in unique hues.So why not join the gang and become a trendsetter!</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+				<img src="images/haircoloring.jpg" alt="haircoloring"/>
+			</div>
+		</div>
+		
+	</section>
+	<!--footer-->
+	<footer class="footer">
+		<div class="container2">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Royalty Parlour</h4>
+					<ul>
+						<li><a href="index.html">Home</a></li> 
+						<li><a href="enquiry.html">Enquiry</a></li> 
+						<li><a href="aboutme.html">About Me</a></li> 
+						<li><a href="disclaimer.html">Disclaimer</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="hairsalon.html">Hair Salon</a></li> 
+						<li><a href="barbershop.html">Barbershop</a></li> 
+						<li><a href="nailsalon.html">Nail Salon</a></li> 
+						<li><a href="facialsandspa.html">Facials</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Contact Us</h4>
+					<ul>
+						<li><a href="#"></a>+60123456789</li>
+						<li><a href="#"></a>Ground Floor,Jalan Wan Alwi, 93350 Kuching,Sarawak,Malaysia</li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Acknowledgements</h4>
+					<ul>
+						<li><a href="https://www.pinterest.com/pin/438256607500438695/">Hairlocs Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/211739619972505766/">Knotless Braids Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/654992339576706302/">Wig Installation Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/2040762323560792/">Hair Coloring Image</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+</body>
+</html>

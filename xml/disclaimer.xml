@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Basic HTML elements"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="A Lecturer"/>
+
+	<title>Oracle Disclaimer</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+
+</head>
+
+<body>
+	<section >
+		<div class= "disclaimer">
+			<nav>
+				<ul>
+					<li><a href ="index.html">HOME</a></li>
+						<li><a>SERVICES</a>
+							<ul class="dropdown">
+								<li><a href ="hairsalon.html">HAIR SALON</a></li>
+								<li><a href ="barbershop.html">BARBERSHOP</a></li>
+								<li><a href ="nailsalon.html">NAIL SALON</a></li>
+								<li><a href ="facialsandspa.html">FACIALS</a></li>
+							</ul>
+					</li>
+					<li><a href ="enquiry.html">ENQUIRY</a></li>
+					<li><a href ="aboutme.html">ABOUT ME</a></li>
+					<li><a href ="disclaimer.html">DISCLAIMER</a></li>
+					<li><a href ="enhancement1.html">ENHANCEMENTS</a></li>	
+				</ul>
+			</nav>
+
+			<div class= "mydisclaimer">		
+				<div class="mydisclaimer-text">
+				
+					<h1>DISCLAIMER!!</h1>
+						<ul>
+							<li>•This website is created mainly for educational and non-commercial use only. It is a partial 
+							fulfilment for completion of unit COS10011 - Creating Web Applications offered in Swinburne University of Technology, Sarawak Campus for Semester 2, 2022.</li>
+							<li>•The web-master and author(s) do not represent the business entity.</li>
+							<li>•The content of the pages of this website might be out-dated or inaccurate, thus, the author(s) and web-master does not take any responsibility for incorrect information disseminate or cited from this website.</li>
+							<li>•If you believe that information of any kind on this website is an infringement of copyright in material in which you either own copyright or are authorized to exercise the rights of a copyright owner, kindly contact the web-master <a href="mailto:102763758@students.swinburne.edu.my/">(102763758@students.swinburne.edu.my)</a> for removal.</li>
+						</ul>
+				
+				</div>
+			</div>
+		</div>
+	</section> 
+</body>
+</html>

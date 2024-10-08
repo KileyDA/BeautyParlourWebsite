@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="HTML Website"/>
+	<meta name="keywords" content="Beauty Parlour Services"/>
+	<meta name="author" content="Kelly Dianga"/>
+
+	<title>Oracle Facials and Spa</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+
+</head>
+
+<body>
+	<div class="backgroundimage4">
+	<nav>
+			<ul>
+			<li><a href ="index.html">HOME</a></li>
+			<li><a>SERVICES</a>
+				<ul class="dropdown">
+					<li><a href ="hairsalon.html">HAIR SALON</a></li>
+					<li><a href ="barbershop.html">BARBERSHOP</a></li>
+					<li><a href ="nailsalon.html">NAIL SALON</a></li>
+					<li><a href ="facialsandspa.html">FACIALS</a></li>
+				</ul>
+			</li>
+			<li><a href ="enquiry.html">ENQUIRY</a></li>
+			<li><a href ="aboutme.html">ABOUT ME</a></li>
+			<li><a href ="disclaimer.html">DISCLAIMER</a></li>
+			<li><a href ="enhancement1.html">ENHANCEMENTS</a></li>	
+			</ul>
+		</nav>
+			<div class="text-box">
+			
+			</div>
+
+	</div>
+	
+	<section class ="hairsalon">
+		<div class="hair">
+			<div class="hairlocs">
+				<img src="images/massage.jpg" alt="hairlocs"/>
+				<div class="hairsalon-text">
+					<h2>MASSAGE</h2>
+					<h6>Have you been looking for a nice way to Reduce stress,pain,soreness,tension as well as Improve circulation, energy and alertness?
+						Then come and experience our massage services that will leave you relaxed with a lowered heart rate and blood pressure.</h6>
+						
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+			</div>
+			<div class="knotlessbraids">
+				<div class="hairsalon-text">
+					<h2>FACIALS</h2>
+					<h6>Facials are not just random skincare procedures. They offer much more as the benefits of facials are a lot. 
+					They not only moisturise and rejuvenate your skin but relax you from your busy life. They are an hour of pure bliss. So, if you have been ignoring going for a facial up till now, check the benefits and book an appointment today!</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+				<img src="images/facials.jpg" alt="knotlessbraids"/>
+			</div>
+			<div class="wiginstallation">
+				<img src="images/waxing.jpg" alt="wiginstallation"/>
+				<div class="hairsalon-text">
+					<h2>WAXING</h2>
+					<h6>Waxing helps in removing your unwanted hair and dead skin cells and opens up the clogged skin pores and provides a glossy and glowing texture to the skin. · Skin becomes more soft and smooth Proper hygiene can be maintained after you remove all the unwanted hair from the skin.
+					You avoid the usual cuts and bruises you get after trimming or shaving your hair. Instead of growing out thicker hair and with more intensity, you get lesser hair and that too after longer intervals. Hence, you save your time.So book an appointment with us!</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+			</div>
+			<div class="haircoloring">
+				<div class="hairsalon-text">
+					<h2>EXFOLIATION</h2>
+					<h6>Whether you have dry bits, pigmented bits or blotchy bits; exfoliation can help. 
+					Sloughing away old skin cells and allowing fresh ones to peep through gives your complexion a new lease of life. Skin exfoliation benefits and improves texture and tone for a softer, smoother look and feel.</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+				<img src="images/exfoliation.jpg" alt="haircoloring"/>
+			</div>
+		</div>
+		
+	</section>
+	<!--footer-->
+	<footer class="footer">
+		<div class="container2">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Royalty Parlour</h4>
+					<ul>
+						<li><a href="index.html">Home</a></li> 
+						<li><a href="enquiry.html">Enquiry</a></li> 
+						<li><a href="aboutme.html">About Me</a></li> 
+						<li><a href="disclaimer.html">Disclaimer</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="hairsalon.html">Hair Salon</a></li> 
+						<li><a href="barbershop.html">Barbershop</a></li> 
+						<li><a href="nailsalon.html">Nail Salon</a></li> 
+						<li><a href="facialsandspa.html">Facials</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Contact Us</h4>
+					<ul>
+						<li><a href="#"></a>+60123456789</li>
+						<li><a href="#"></a>Ground Floor,Jalan Wan Alwi, 93350 Kuching,Sarawak,Malaysia</li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Acknowledgements</h4>
+					<ul>
+						<li><a href="https://www.pinterest.com/pin/519532507024248644/">Massage Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/859976491358046766/">Facials Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/1266706137241533/">Waxing Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/284078688987465658/">Exfoliation Image</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+</body>
+</html>

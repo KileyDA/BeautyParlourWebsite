@@ -1,0 +1,702 @@
+
+/*
+ Author:Kelly Atieno Diang'a
+ Description:This CSS file is used to style the html pages of Oracle Beauty Parlor to make the wbsite aesthetically pleasing
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+
+/*-----------------------INDEX PAGE--------------------*/
+.container{
+	width: 100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0.5,1),transparent),url(../images/mainbackground.jpg);	
+	background-size:cover;
+	background-position:center;
+	padding:0.8%;
+	position:relative;
+}
+
+nav{
+	display:flex;
+	width:100%;
+	align-items:center;
+	flex-wrap:wrap;
+	padding:5px 0;
+}
+
+nav ul{
+	padding-right: 30px;
+	list-style:none;
+	
+}
+nav ul li{
+	float:left;
+	width:200px;
+	height:8vh;
+	background-color:black;
+	opacity:0.9;
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration:none;
+	font-weight: bold;
+	display:block;
+}
+nav ul li a:hover{
+	background-color:#dbc024;
+}
+
+nav ul li ul.dropdown li {
+	display:block;
+}
+
+nav ul li ul.dropdown{
+	display:none;	
+}
+nav ul li:hover ul.dropdown{
+	display:block;
+}
+
+.text-box{
+	color: #fff;
+	position: absolute;
+	bottom: 20%;
+	max-width:50rem;	
+}	
+
+.text-box h2{
+	font-size: 55px;
+	line-height: 100px;
+	margin-left:-10px;
+	color: transparent;
+	-webkit-text-stroke:1px #fff;
+	background:url(../images/goldtextb.jpg);
+	-webkit-background-clip: text;
+	background-position:0 0;
+	animation:back 20s linear infinite;
+	
+}
+@keyframes back{
+	100%{
+		background-position:2000px 0;
+	}
+}
+.text-box h3{
+	color:#e4da83;
+	font-size:40px;
+	font-weight:600;
+
+}
+.about{
+	background-color:black;
+}
+.about img{
+	height:auto;
+	width:400px;
+}
+
+ h2{
+	color: #e4da83;
+	font-size:80px;
+	text-transform:capitalize;
+	margin-bottom:20px;
+	text-align: center;
+}
+.about-text h5{
+	color: white;
+	letter-spacing:2px;
+	font-size:22px;
+	margin-bottom:25px;
+	text-transform:capitalize;
+}
+.about-text h6{
+	color:white;
+	letter-spacing:1px;
+	line-height:20px;
+	margin-bottom:25px;
+	font-size:20px;
+	text-align:center;
+}
+	
+.main{
+	width:1130px;
+	max-width:95%;
+	margin:0 auto;
+	display: flex;
+	align-items:center;
+	justify-content:space-around;
+	
+}
+.services{
+	
+	width: 100%;
+	padding:100px 0px;
+	background:#06010b;
+
+}
+.title h2{
+	color: #e4da83;
+	font-size:60px;
+	width:1130px;
+	margin:30px auto;
+	text-align: center;
+}
+.boxes{
+	display:flex;
+}
+.card{
+	height: 300px;
+	margin:35px;
+	box-shadow:3px 2px 10px #e0cef6;
+	overflow: hidden;
+}
+.cardbutton{
+	
+	background-color:#e0cef6;
+	color:black;
+	text-decoration:none;
+	border:2px solid transparent;
+	font-weight:bold;
+	padding:9px 22px;
+	border-radius:30px;
+	transition:.4s;	
+}
+img{
+	height: 300px;
+	width:230px;
+	border-radius:5px;
+	
+}
+.intro{
+	height:65px;
+	width:18.5%;
+	padding:3px;
+	box-sizing:border-box;
+	position:absolute;
+	color:white;
+	top:1750px;
+	background: rgb(27, 27, 27, .5);
+	color:white;
+	transition: .5s;
+}
+h1{
+	margin:10px;
+	font-size:30px;
+	
+}
+p{
+	
+	font-size:15px;
+	margin:0.1px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.card:hover{
+	cursor: pointer;
+}
+
+.card:hover .intro{
+	height: 162px;
+	bottom: 200px;
+	background: #191919;
+}
+
+.card:hover p{
+	opacity:1;
+	visibility: visible;
+}
+
+.card:hover img{
+	transform: scale(1.1) rotate(-3deg);
+}
+.iframe1{
+	background: #191919;
+}
+.iframe1 iframe{
+	margin-left:250px;
+}
+/*-----------------------SERVICES--------------------*/
+.backgroundimage{
+	width: 100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0.5,1),transparent),url(../images/hairsalonbackground.jpg);
+	background-size:cover;
+	background-position:center;
+	padding:0.8%;
+	position:relative;
+	
+}
+.backgroundimage2{
+	width: 100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0.5,1),transparent),url(../images/barbershopbackground.jpg);
+	background-size:cover;
+	background-position:center;
+	padding:0.8%;
+	position:relative;
+	
+}
+.backgroundimage3{
+	width: 100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0.5,1),transparent),url(../images/nailsbackground.jpg);
+	background-size:cover;
+	background-position:center;
+	padding:0.8%;
+	position:relative;
+	
+}
+.backgroundimage4{
+	width: 100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0.5,1),transparent),url(../images/spabackground.jpg);
+	background-size:cover;
+	background-position:center;
+	padding:0.8%;
+	position:relative;
+	
+}
+.hairsalon{
+	margin:0;
+	padding:5px;	
+	background-color:#191919;
+}
+.hairsalon img{
+	height:400px;
+	width:300px;
+}
+.hair h1{
+	color: #e4da83;
+	font-size:75px;
+	margin-bottom:50px;
+	margin-top:0;
+	margin-left:350px;
+}
+.hairsalon-text{
+	width:550px;
+	
+}
+.hairsalon-text h2{
+	color: #e4da83;
+	font-size:55px;
+	text-transform:capitalize;
+	margin-bottom:20px;
+}
+
+.hairsalon-text h6{
+	color:white;
+	letter-spacing:1px;
+	line-height:20px;
+	font-size:16px;
+	margin-bottom:45px;
+}
+.hair{
+	width:1100px;
+	max-width:100%;
+	margin:0;
+	align-items:center;
+	justify-content:space-around;
+}
+.hairlocs{
+	display:flex;
+	background-color:black;
+	margin-top:10px;
+	margin-bottom:30px;
+	margin-right:250px;
+	box-shadow:3px 2px 10px #e0cef6;
+}
+.knotlessbraids{
+	display:flex;
+	background-color:black;
+	margin-bottom:30px;
+	margin-left:250px;
+	box-shadow:3px 2px 10px #e0cef6;
+
+}
+.wiginstallation{
+	display:flex;
+	background-color:black;
+	margin-bottom:30px;	
+	margin-right:250px;
+	box-shadow:3px 2px 10px #e0cef6;
+}
+.haircoloring{
+	display:flex;
+	background-color:black;
+	margin-left:250px;
+	margin-bottom:15px;	
+	box-shadow:3px 2px 10px #e0cef6;
+}
+button{
+    background-color:#e0cef6;
+	color:black;
+	text-decoration:none;
+	border:2px solid transparent;
+	font-weight:bold;
+	font-size:17px;
+	padding:9px 22px;
+	border-radius:30px;
+	transition:.4s;		
+}
+
+button:hover{
+	background-color:transparent;
+	border:2px solid white;
+	cursor:pointer;
+	color:white;
+}
+
+/*-----------------------ABOUT ME--------------------*/
+.aboutme{
+	width: 100%;
+	height:auto;
+	background-image:linear-gradient(rgba(0,0,0.5,1),transparent),url(../images/Kellybackground.jpg);
+	background-size:cover;
+	background-position:center;
+	padding:0.8%;
+	position:relative;
+	
+}
+.aboutme img{
+	height:auto;
+	width:420px;
+	margin-left:425px;
+	border-style: groove;
+	padding:20px;
+}
+.emailme{
+	text-align:center;
+	background-color:#e0cef6;
+	width:200px;
+	padding:15px;
+	border:2px solid black;
+	margin-left:40%;
+	
+}
+.aboutme-text {
+	background-color:black;
+	background-size:cover;
+	background-position:center;
+	padding:0.8%;
+	position:relative;
+	margin-bottom:-9px;
+}
+.aboutme-text h4{
+	color:#e4da83;
+	letter-spacing:1px;
+	line-height:20px;
+	font-size:200%;
+	font-weight:bold;
+	margin-bottom:25px;
+	margin-top:25px;
+	text-align:center;
+}
+.aboutme-text h5,h6{
+	color:white;
+	letter-spacing:1px;
+	line-height:20px;
+	font-size:20px;
+	margin-bottom:45px;
+	text-align:center;
+	font-family:sans-serif;
+}
+
+.aboutme-text table th,td{
+	color:white;
+	text-align:center;
+	letter-spacing:1px;
+	line-height:20px;
+	margin-bottom:45px;
+	font-size:20px;
+	border:1px solid white;
+	border-style:double;
+	background: black;
+	height:50px;
+	background-color:#191919;
+	width:25%;
+}
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*-----------------------DISCLAIMER--------------------*/
+.disclaimer nav{
+	background-color:black;
+}
+.mydisclaimer{
+	height:100vh;
+	background-image:linear-gradient(rgba(1,0,0.2,5),transparent),url(../images/mainbackground3.jpg);
+	background-size:cover;
+	display:flex;
+	align-items:center;
+	margin:0;
+	padding:0;
+}
+.mydisclaimer-text h1{
+	color: #e4da83;
+	font-size:80px;
+	text-transform:capitalize;
+	margin-bottom:20px;
+	margin-top:-30px;
+	text-align: center;
+}
+.mydisclaimer-text ul{
+	color:white;
+	background-color:#191919;
+	width:80%;
+	height:74vh;
+	background-repeat:no-repeat;
+	align-items:center;
+	justify-content:center;
+	font-size:20px;
+	letter-spacing:0.1px;
+	line-height:45px;
+	margin-left:130px;
+	border-style: ridge;
+	border-color: #e4da83;
+}
+.mydisclaimer-text ul li{
+	color:white;
+	margin-bottom:15px;
+}
+.mydisclaimer-text ul li a{
+	color:#e4da83;
+}
+/*-----------------------ENQUIRY--------------------*/
+.container3{
+	height:auto;
+	background-image:linear-gradient(rgba(1,0,0.2,5),transparent),url(../images/mainbackground3.jpg);
+	background-size:cover;
+	padding:1.5%;
+}
+form{
+	width: 80%;
+	margin-left:135px;
+	background-color:#e4da83;
+	border: 1px solid black;
+}
+input[type=text], select, textarea {
+  width: 55%;
+  padding: 12px;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  
+}
+legend{
+	 border: 1.5px solid black;
+	 margin-left:35px;
+	 padding:1.6%;
+}
+fieldset{
+	margin-bottom:30px;
+	padding:1.5%;
+}
+input[type=submit]{
+	 padding: 10px;
+	 font-size:20px;
+	 margin:5px;
+	 margin-left:42%;
+}
+input[type=reset]{
+	 padding: 10px;
+	 font-size:20px;
+}
+/*---------------------ENHANCEMENTS--------------------*/
+.enhancements nav{
+	background-color:black;
+}
+.myenhancements{
+	height:auto;
+	background-image:linear-gradient(rgba(1,0,0.2,5),transparent),url(../images/mainbackground3.jpg);
+	background-size:cover;
+	margin:0;
+	padding:30px;
+	line-height:45px;
+}
+.myenhancements-text h1{
+	color: #e4da83;
+	font-size:80px;
+	text-transform:capitalize;
+	margin-bottom:20px;
+	margin-top:-5px;
+	text-align: center;
+}
+.enhancement-text{
+	background-color:#191919;
+	width:80%;
+	height:82vh;
+	background-repeat:no-repeat;
+	margin-left:130px;
+	border-style: ridge;
+	border-color: #e4da83;
+	margin-bottom:30px;
+	line-height:20px;
+}
+.enhancement-text h2{
+	font-size:45px;
+	align-items:center;
+	justify-content:center;
+	margin-top:30px;
+}
+.enhancement-text h6{
+	font-size:20px;
+	text-align:left;
+	margin-top:10px;
+}
+.enhancement-text h4{
+	color:#e4da83;
+	font-size:30px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.enhancement-text a{
+	color:white;
+	font-size:20px;
+	
+}
+.enhancement-text ol li{
+	color:white;
+	margin-bottom:15px;
+	text-align:left;
+}
+.enhancement-text ol li a{
+	background-color:#e0cef6;
+	color:black;
+	padding:5px;
+
+}
+.enhancements-text ul li a{
+	background-color:#e0cef6;
+	color:black;
+	padding:5px;
+}
+
+/*-----------------------FOOTER--------------------*/
+.container2{
+	max-width:1170px;
+	margin:auto;
+}
+ul{
+	list-style:none; 
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.footer{
+	background-color: black;
+	color:white;
+}
+.footer-col{
+	width:25%;
+	padding:0 15px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+.footer-col h4{
+	font-size:18px;
+	text-transform:capitalize;
+	margin-bottom:30px;
+	position:relative;
+	font-weight:500;
+	color:#e4da83;
+	padding:3px;
+}
+
+.footer-col h4::before{
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	background-color:#e0cef6;
+	height:2px;
+	box-sizing:border-box;
+	width:50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom:10px;
+}
+
+.footer-col ul li a{
+	font-size:16px;
+	text-transform:capitalize;
+	text-decoration:none;
+	font-weight:300;
+	display:block;
+	transition:all 0.3s ease;
+	color:white;
+}
+
+.footer-col ul li a:hover{
+	color:white;
+	padding-left:10px;
+}
+
+
+/*-----make footer responsive--*/
+@media(max-width:767px){
+	.footer-col{
+		width:50%
+		margin-bottom:30px;
+	}
+}
+
+@media(max-width:574px){
+	.footer-col{
+		width:100%
+	}
+}
+
+/*---------Slideshow------*/
+
+
+.box {
+
+   height: 80%;
+   box-shadow: 0 0 25px -3px rgba(0,0,0,0.4);
+   background-color:#191919;
+   background-image:linear-gradient(rgba(0,0,0.5,1),transparent),url(../images/abtindus.jpg);
+}
+
+.box img{
+   width:60%;
+   height: 73vh;
+   margin-left:20%;
+   background-color:#191919;
+   box-shadow:2px 3px 5px #e0cef6;
+}
+
+/*---------Real Time Clock------*/
+#clock{
+	width: 100%;
+	position:absolute;
+	font-size:3vw;
+	font-weight:500;
+	text-align:center;
+	margin-left:30%;
+	margin-top:9.7%;
+	background-color:black;
+	opacity:0.8;	
+	
+}

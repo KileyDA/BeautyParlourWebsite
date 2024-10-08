@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="utf-8"/>
+	<title>Confirmation Page</title>
+	
+
+	 <script src ="scripts/confirm.js"></script>
+	
+ </head>
+ 
+ <body>
+  <h1>CONFIRM DETAILS </h1>
+	<form id="bookform" method="post" action="mailto:102763758@students.swinburne.edu.my" novalidate="novalidate" >
+		<fieldset>
+		<legend>User Details</legend>
+			<p>Your First Name: <span id ="confirm_fname"></span></p>
+			<p>Your Second Name: <span id ="confirm_lname"></span></p>		
+			<p>Your Phone Number: <span id ="confirm_phoneNo"></span></p>
+			<p>Your Gender: <span id ="confirm_gender"></span></p>
+			<p>Your Age: <span id ="confirm_age"></span></p>
+			<p>Your Email Address: <span id ="confirm_email"></span></p>
+			<p>Your Street Address: <span id ="confirm_address"></span></p>
+			<p>Your City/Town: <span id ="confirm_city"></span></p>
+			<p>Your State: <span id ="confirm_state"></span></p>
+			<p>Your Postal Code: <span id ="confirm_postalCode"></span></p>
+			<p>Type of Service: <span id ="confirm_service"></span></p>
+			<p>Your Subject: <span id ="confirm_subject"></span></p>
+			<p>Your Comment: <span id ="confirm_comment"></span></p>
+		
+		<input type="submit" value="Confirm Booking" />
+		<input type="button" value="Cancel" id="CancelButton" onclick="cancelBooking()" />
+		</fieldset>
+	</form>
+ 
+
+ </body>
+</html>

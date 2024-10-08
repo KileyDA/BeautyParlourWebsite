@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Basic HTML elements">
+	<meta name="keywords" content="HTML5, tags">
+	<meta name="author" content="A Lecturer">
+
+	<title>Oracle Enquiry</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="scripts/script.js"></script> 
+
+</head>
+
+<body>
+	<section >
+		<div class= "disclaimer">
+			<nav>
+				<ul>
+					<li><a href ="index.html">HOME</a></li>
+						<li><a>SERVICES</a>
+							<ul class="dropdown">
+								<li><a href ="hairsalon.html">HAIR SALON</a></li>
+								<li><a href ="barbershop.html">BARBERSHOP</a></li>
+								<li><a href ="nailsalon.html">NAIL SALON</a></li>
+								<li><a href ="facialsandspa.html">FACIALS</a></li>
+							</ul>
+					</li>
+					<li><a href ="enquiry.html">ENQUIRY</a></li>
+					<li><a href ="aboutme.html">ABOUT ME</a></li>
+					<li><a href ="disclaimer.html">DISCLAIMER</a></li>
+					<li><a>ENHANCEMENTS</a>
+			        <ul class="dropdown">
+					<li><a href ="enhancement1.html">ENHANCEMENTS 1</a></li>
+					<li><a href ="enhancement2.html">ENHANCEMENTS 2</a></li>
+					
+				</ul>
+			</li>	
+				</ul>
+			</nav>
+			<div class="container3">
+				<form	id="enquiryForm" method="post"  action="confirm.html" novalidate="novalidate" >
+					<fieldset>
+						<legend>Personal Details:</legend>
+						<label>Your First Name*:
+						 <input type="text" id="fname" maxlength="25" name="firstname" placeholder="Your name.."></label><br>
+						 <label>Your Last Name*:
+						 <input type="text" id="lname" maxlength="25" name="lastname" placeholder="Your name.."></label><br>
+						
+						<label>Phone Number*:
+						<input type="tel" maxlength="10" id="phoneNo"  name="phoneNo" required="required" placeholder="012345678"></label><br>
+						
+						<label>Gender*:</label>
+						<label><input type="radio" id="male" name="gender" value="male" required="required">  Male</label>
+						<label>	<input type="radio" id="female" name="gender" value="female">Female</label><br>
+						
+						<label>Age*:
+						<input type="text" id="pdob" name="pdob" required="required"  ></label><br>
+						
+						<label>Email Address*:
+						<input type="email" id="pemail" name="pemail" required="required"></label><br>
+
+						
+					</fieldset>
+					
+					<fieldset>
+						<legend>Address:</legend>
+						<label>Street Address*:
+						<input type="text" id="streetAddress" maxlength="40" name="pname" required="required" ></label><br>
+						
+						<label>City/Town*:
+						<input type="text" id="City" maxlength="20" name="pname" required="required" ></label><br>
+						
+					   <label for="states">State*:</label>
+							
+							<select name="states" id="states" onchange="change()" >
+							<optgroup label="states" id="states">
+                                <script>statelist()</script>
+                            </optgroup>
+							</select><br>
+						<label>Postal Code*:
+						<input type="text" id="postalCode" maxlength="5" name="pemail" required="required"></label><br>
+
+						
+					</fieldset>
+					
+					<fieldset>
+						<legend>Services/Enquiry</legend>
+					   <label for="services">Type of Services*:</label>
+							<select name="services" id="services" onchange="change()" >
+							<optgroup label="Services" id="services">
+                                <script>servicelist1()</script>
+                            </optgroup>
+							</select><br>
+						
+					    <label  id="subject">Subject:</label>
+					       <input type="text" id="sbj" name="subject" value=""/>
+						   
+					</fieldset>
+					
+					<fieldset>
+						<legend>Issue</legend>
+					
+						<h5><label>Comments<br>	
+						 <textarea placeholder="Enter comments here..." rows="6" cols="85" id="issuedescription"></textarea>
+						</label></h5>
+						
+					</fieldset>
+					
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset" >
+				
+				</form> 
+			</div>
+		</div>		
+	</section> 
+		<!--footer-->
+	<footer class="footer">
+		<div class="container2">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Royalty Parlour</h4>
+					<ul>
+						<li><a href="index.html">Home</a></li> 
+						<li><a href="enquiry.html">Enquiry</a></li> 
+						<li><a href="aboutme.html">About Me</a></li> 
+						<li><a href="disclaimer.html">Disclaimer</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="hairsalon.html">Hair Salon</a></li> 
+						<li><a href="barbershop.html">Barbershop</a></li> 
+						<li><a href="nailsalon.html">Nail Salon</a></li> 
+						<li><a href="facialsandspa.html">Facials</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Contact Us</h4>
+					<ul>
+						<li><a href="#"></a>+60123456789</li>
+						<li><a href="#"></a>Ground Floor,Jalan Wan Alwi, 93350 Kuching,Sarawak,Malaysia</li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Acknowledgements</h4>
+					<ul>
+						<li><a href="https://www.pinterest.com/pin/469218854896684584/">Background Image</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

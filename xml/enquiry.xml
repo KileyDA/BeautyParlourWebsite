@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Basic HTML elements"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="A Lecturer"/>
+
+	<title>Oracle Enquiry</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+
+</head>
+
+<body>
+	<section >
+		<div class= "disclaimer">
+			<nav>
+				<ul>
+					<li><a href ="index.html">HOME</a></li>
+						<li><a>SERVICES</a>
+							<ul class="dropdown">
+								<li><a href ="hairsalon.html">HAIR SALON</a></li>
+								<li><a href ="barbershop.html">BARBERSHOP</a></li>
+								<li><a href ="nailsalon.html">NAIL SALON</a></li>
+								<li><a href ="facialsandspa.html">FACIALS</a></li>
+							</ul>
+					</li>
+					<li><a href ="enquiry.html">ENQUIRY</a></li>
+					<li><a href ="aboutme.html">ABOUT ME</a></li>
+					<li><a href ="disclaimer.html">DISCLAIMER</a></li>
+					<li><a href ="enhancement1.html">ENHANCEMENTS</a></li>	
+				</ul>
+			</nav>
+			<div class="container3">
+					<form>
+					<fieldset>
+						<legend>Personal Details:</legend>
+						<label>Your First Name*:
+						 <input type="text" id="fname" maxlength="25" name="firstname" placeholder="Your name.."/></label><br/>
+						 <label>Your Last Name*:
+						 <input type="text" id="lname" maxlength="25" name="lastname" placeholder="Your name.."/></label><br/>
+						
+						<label>Phone Number*:
+						<input type="tel" maxlength="10" name="pname" required="required" placeholder="012345678"/></label><br/>
+						
+						<label>Gender*:</label>
+						<label><input type="radio" id="unit1" name="unit" value="COS10011" required="required"/> Male</label>
+						<label>	<input type="radio" id="unit2" name="unit" value="COS60004"/>Female</label><br/>
+						
+						<label>Age*:
+						<input type="text" name="pdob" required="required"/></label><br/>
+						
+						<label>Email Address*:
+						<input type="email" name="pemail" required="required"/></label><br/>
+
+						
+					</fieldset>
+					
+					<fieldset>
+						<legend>Address:</legend>
+						<label>Street Address*:
+						<input type="text" maxlength="40" name="pname" required="required" /></label><br/>
+						
+						<label>City/Town*:
+						<input type="text" maxlength="20" name="pname" required="required" /></label><br/>
+						
+					   <label for="states">State*:</label>
+							<select name="states" id="states">
+								<option value="state1" selected="selected">Sabah</option>
+								<option value="state2">Kedah</option>
+								<option value="state3">Negeri Sembilan</option>
+								<option value="state4">Perak</option>
+								<option value="state5">Selangor</option>
+								<option value="state6">Pehang</option>
+								<option value="state7">Sarawak</option>
+								<option value="state8">Perlis</option>
+								<option value="state9">Johor</option>
+								<option value="state10">Terengganu</option>
+								<option value="state11">Malacca</option>
+								<option value="state12">Kelantan</option>
+								<option value="state13">Penang</option>
+								
+							</select><br/>
+						
+						<label>Postal Code*:
+						<input type="text" maxlength="5" name="pemail" required="required"/></label><br/>
+
+						
+					</fieldset>
+					<fieldset>
+						<legend>Services/Enquiry</legend>
+					   <label for="services">Type of Services*:</label>
+							<select name="services" id="services" >
+								<option value="service" selected="selected">Choose</option>
+								<option value="service1">Hair Salon</option>
+								<option value="service2">Barbershop</option>
+								<option value="service3">Nail Salon</option>
+								<option value="service4">Facials</option>
+							</select>
+						
+					
+					</fieldset>
+					
+					<fieldset>
+						<legend>Issue</legend>
+					
+						<h5><label>Comments<br/>	
+						 <textarea placeholder="Enter comments here" rows="6" cols="85"></textarea>
+						</label></h5>
+						
+					</fieldset>
+					
+					<input type="submit" value="Register"/>
+					<input type="reset" value="Reset" />
+				
+				</form> 
+			</div>
+		</div>		
+	</section> 
+</body>
+</html>

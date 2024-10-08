@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Basic HTML elements"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="A Lecturer"/>
+
+	<title>Oracle Disclaimer</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+
+</head>
+
+<body>
+	<section >
+		<div class= "enhancements">
+			<nav>
+				<ul>
+					<li><a href ="index.html">HOME</a></li>
+						<li><a>SERVICES</a>
+							<ul class="dropdown">
+								<li><a href ="hairsalon.html">HAIR SALON</a></li>
+								<li><a href ="barbershop.html">BARBERSHOP</a></li>
+								<li><a href ="nailsalon.html">NAIL SALON</a></li>
+								<li><a href ="facialsandspa.html">FACIALS</a></li>
+							</ul>
+					</li>
+					<li><a href ="enquiry.html">ENQUIRY</a></li>
+					<li><a href ="aboutme.html">ABOUT ME</a></li>
+					<li><a href ="disclaimer.html">DISCLAIMER</a></li>
+					<li><a href ="enhancement1.html">ENHANCEMENTS</a></li>	
+				</ul>
+			</nav>
+
+			<div class= "myenhancements">		
+				<div class="myenhancements-text">
+				
+					<h1>ENHANCEMENTS</h1>
+
+					<div class="enhancement-text">
+						<div class="enhancements-text">
+							<h2>DROPDOWN NAVIGATION BAR</h2>
+							<h6> A drop-down navigation bar is a menu that offers a list of options. The title or the currently-selected item in the list, is always displayed. When the visible item is clicked, other items from the list "drop-down" in to view, and the user can choose from those options.</h6>
+							
+							<h4>Page Implementation</h4>
+							<ol>
+								<li><a href ="index.html">HOME PAGE</a></li>
+								<li><a href ="hairsalon.html">HAIR SALON</a></li>
+								<li><a href ="barbershop.html">BARBERSHOP</a></li>
+								<li><a href ="nailsalon.html">NAIL SALON</a></li>
+								<li><a href ="facialsandspa.html">FACIALS</a></li>
+							</ol>
+							<h4>Citation</h4>
+							<a href ="https://www.computerhope.com/jargon/d/dropdm.htm">idea sourced from:https://www.computerhope.com/jargon/d/dropdm.htm</a>
+						</div>
+					</div>
+					
+					<div class="enhancement-text">
+						<div class="enhancements-text">
+							<h2>ANIMATED TEXT EFFECT</h2>
+							<h6>Text animation is the creation of beautiful and colourful letters, words and paragraphs with a decorative movable effect.
+							The movement can be seen in some fashion within the area or across the screen following some regular pattern.</h6>
+							
+							<h4>Page Implementation</h4>
+							<ul><li><a href ="index.html">HOME PAGE</a></li></ul>
+							
+							<h4>Citation</h4>
+							<a href ="https://www.geeksforgeeks.org/text-animation-with-changing-the-color-of-the-text-using-html-css/">idea sourced from:https://www.geeksforgeeks.org/text-animation-with-changing-the-color-of-the-text-using-html-css/</a>
+						</div>
+					</div>
+					
+					<div class="enhancement-text">
+						<div class="enhancements-text">
+							<h2>CARD WITH ANIMATION HOVER EFFECT</h2>
+							<h6>A floating card rotates a few degrees on hover and a drop down description of the service provided is shown.
+							   This gives an animation effect through the rotating movement.</h6>
+							
+							<h4>Page Implementation</h4>
+							<ul><li><a href ="index.html">HOME PAGE</a></li></ul>
+							
+							<h4>Citation</h4>
+							<a href ="https://www.geeksforgeeks.org/responsive-card-with-hover-effect-using-html-and-css/">idea sourced from:https://www.geeksforgeeks.org/responsive-card-with-hover-effect-using-html-and-css/</a>
+						</div>
+					</div>
+					
+					<div class="enhancement-text">
+						<div class="enhancements-text">
+							<h2>GOOGLE MAPS</h2>
+							<h6>We use google maps to get the location of the beauty parlor.This is done using "iframe" as well as class element.
+							The code for the specified location is generated on google maps by pressing generate code button.
+							</h6>
+							
+							<h4>Page Implementation</h4>
+							<ul><li><a href ="index.html">HOME PAGE</a></li></ul>
+							
+							<h4>Citation</h4>
+							<a href ="https://www.geeksforgeeks.org/responsive-card-with-hover-effect-using-html-and-css/">idea sourced from:https://www.geeksforgeeks.org/responsive-card-with-hover-effect-using-html-and-css/</a>
+						</div>
+					</div>
+					
+					<div class="enhancement-text">
+						<div class="enhancements-text">
+							<h2>HOVER EFFECT ON LINKS IN FOOTER</h2>
+							<h6>I created a hover effect in the footer such that when the mouse is placed on a link,the specified link moves to the left side.
+							This is useful when showing the user which specific link is being chosen.
+							</h6>
+							
+							<h4>Page Implementation</h4>
+							<ol>
+								<li><a href ="index.html">HOME PAGE</a></li>
+								<li><a href ="hairsalon.html">HAIR SALON</a></li>
+								<li><a href ="barbershop.html">BARBERSHOP</a></li>
+								<li><a href ="nailsalon.html">NAIL SALON</a></li>
+								<li><a href ="facialsandspa.html">FACIALS</a></li>
+							</ol>
+							
+							<h4>Citation</h4>
+							<a href ="https://www.geeksforgeeks.org/responsive-card-with-hover-effect-using-html-and-css/">idea sourced from:https://www.geeksforgeeks.org/responsive-card-with-hover-effect-using-html-and-css/</a>
+						</div>
+					</div>		
+			    </div>
+		    </div>
+		</div>
+	</section> 
+		<!--footer-->
+	<footer class="footer">
+		<div class="container2">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Royalty Parlour</h4>
+					<ul>
+						<li><a href="index.html">Home</a></li> 
+						<li><a href="enquiry.html">Enquiry</a></li> 
+						<li><a href="aboutme.html">About Me</a></li> 
+						<li><a href="disclaimer.html">Disclaimer</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="hairsalon.html">Hair Salon</a></li> 
+						<li><a href="barbershop.html">Barbershop</a></li> 
+						<li><a href="nailsalon.html">Nail Salon</a></li> 
+						<li><a href="facialsandspa.html">Facials</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Contact Us</h4>
+					<ul>
+						<li><a href="#"></a>+60123456789</li>
+						<li><a href="#"></a>Ground Floor,Jalan Wan Alwi, 93350 Kuching,Sarawak,Malaysia</li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Acknowledgements</h4>
+					<ul>
+						<li><a href="https://www.pinterest.com/pin/469218854896684584/">Background Image</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

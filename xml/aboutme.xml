@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Basic HTML elements"/>
+	<meta name="keywords" content="HTML5, tags"/>
+	<meta name="author" content="A Lecturer"/>
+
+	<title>Oracle About me</title>
+	<link rel="stylesheet" href="styles/style.css"></link>
+
+</head>
+
+<body>
+	<div class= "aboutme">
+		<section >
+			<div class= "about-me">
+					<nav>
+						<ul>
+						<li><a href ="index.html">HOME</a></li>
+						<li><a>SERVICES</a>
+							<ul class="dropdown">
+								<li><a href ="hairsalon.html">HAIR SALON</a></li>
+								<li><a href ="barbershop.html">BARBERSHOP</a></li>
+								<li><a href ="nailsalon.html">NAIL SALON</a></li>
+								<li><a href ="facialsandspa.html">FACIALS</a></li>
+							</ul>
+						</li>
+						<li><a href ="enquiry.html">ENQUIRY</a></li>
+						<li><a href ="aboutme.html">ABOUT ME</a></li>
+						<li><a href ="disclaimer.html">DISCLAIMER</a></li>
+						<li><a href ="enhancement1.html">ENHANCEMENTS</a></li>	
+						</ul>
+					</nav>
+					<h2>ABOUT ME</h2>			
+					<img src="images/Kelly.jpg" alt="aboutme"/>
+					<div class="aboutme-text">
+						<h4>Kelly Atieno Diang'a</h4>
+						<h5>STUDENT ID:102763758</h5>
+						<h6>I am a third year student currently pursuing my <mark class="red">Bachelor's in Robotics and Mechatronics Engineering </mark> at Swinburne University of Technology Sarawak,Malaysia.
+								I'm well versed in speaking English,Kiswahili and Luo.</h6>
+							<table class="center" >
+								<tr>
+									<th>Date of Birth</th>
+									<th>August 9,2000</th>
+								</tr>
+								<tr>
+									<th>Age</th>
+									<th>22</th>
+								</tr>
+								<tr>
+									<th>Country From</th>
+									<th>Kenya</th>
+								</tr>
+								<tr>
+									<th>HomeTown(Nairobi)</th>
+									<th>The capital city of Kenya. </th>
+								</tr>
+								<tr>
+									<th>Languages Spoken</th>
+									<th>	
+									<ul>
+											<li>English</li>
+											<li>Kiswahili</li>
+											<li>Luo</li>	
+									</ul>									
+									</th>
+								</tr>
+								<tr>
+									<th>Hobbies</th>
+									<th>	
+										<ul>
+											<li>working out</li>
+											<li>chilling with friends</li>
+											<li>listening to music</li>
+											<li>watching movies</li>
+										</ul>									
+									</th>
+								</tr>
+						</table>
+						
+					</div>
+				</div>
+			
+		</section>
+		
+		<aside class="emailme">
+			<a href="mailto:102763758@students.swinburne.edu.my"> EMAIL ME</a>
+		</aside>
+		
+	</div>
+	
+		<!--footer-->
+	<footer class="footer">
+		<div class="container2">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Royalty Parlour</h4>
+					<ul>
+						<li><a href="index.html">Home</a></li> 
+						<li><a href="enquiry.html">Enquiry</a></li> 
+						<li><a href="aboutme.html">About Me</a></li> 
+						<li><a href="disclaimer.html">Disclaimer</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="hairsalon.html">Hair Salon</a></li> 
+						<li><a href="barbershop.html">Barbershop</a></li> 
+						<li><a href="nailsalon.html">Nail Salon</a></li> 
+						<li><a href="facialsandspa.html">Facials</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Contact Us</h4>
+					<ul>
+						<li><a href="#"></a>+60123456789</li>
+						<li><a href="#"></a>Ground Floor,Jalan Wan Alwi, 93350 Kuching,Sarawak,Malaysia</li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Acknowledgements</h4>
+					<ul>
+						<li><a href="https://www.pinterest.com/pin/438256607500438695/">Hairlocs Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/211739619972505766/">Knotless Braids Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/654992339576706302/">Wig Installation Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/2040762323560792/">Hair Coloring Image</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

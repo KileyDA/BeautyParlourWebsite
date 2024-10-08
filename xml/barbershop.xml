@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="HTML Website"/>
+	<meta name="keywords" content="Beauty Parlour Services"/>
+	<meta name="author" content="Kelly Dianga"/>
+
+	<title>Oracle Barbershop</title>
+	<link rel="stylesheet" href="styles/style.css"/>
+
+</head>
+
+<body>
+	<div class="backgroundimage2">
+	<nav>
+			<ul>
+			<li><a href ="index.html">HOME</a></li>
+			<li><a>SERVICES</a>
+				<ul class="dropdown">
+					<li><a href ="hairsalon.html">HAIR SALON</a></li>
+					<li><a href ="barbershop.html">BARBERSHOP</a></li>
+					<li><a href ="nailsalon.html">NAIL SALON</a></li>
+					<li><a href ="facialsandspa.html">FACIALS</a></li>
+				</ul>
+			</li>
+			<li><a href ="enquiry.html">ENQUIRY</a></li>
+			<li><a href ="aboutme.html">ABOUT ME</a></li>
+			<li><a href ="disclaimer.html">DISCLAIMER</a></li>
+			<li><a href ="enhancement1.html">ENHANCEMENTS</a></li>	
+			</ul>
+		</nav>
+			<div class="text-box">
+			
+			</div>
+
+	</div>
+	
+	<section class ="hairsalon">
+		<div class="hair">
+			<div class="hairlocs">
+				<img src="images/kidshaircut.jpg" alt="hairlocs"/>
+				<div class="hairsalon-text">
+					<h2>KIDS HAIRCUT</h2>
+					<h6>Our hairdressers are highly trained and certified so you no longer have to worry about them being unprofessional or not fit for the job assigned. 
+					They know how to stylize your kids in a way that suits their age and face shape. The best part is that they will be keeping you in the loop in order to make sure that they deliver what you expect from them.</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+			</div>
+			<div class="knotlessbraids">
+				<div class="hairsalon-text">
+					<h2>MEN'S HAIRCUT</h2>
+					<h6>Your hair is as important as any part of your body. It gives you personality and character. Want to look like an emo? A rockstar? A model? Or perhaps a sportstar? 
+					Have your hair done with one of our professionals and you’d surely look like the character you most want to be like.</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+				<img src="images/menhaircut.jpg" alt="knotlessbraids"/>
+			</div>
+			<div class="wiginstallation">
+				<img src="images/haircoloringmen.jpg" alt="wiginstallation"/>
+				<div class="hairsalon-text">
+					<h2>HAIR COLORING AND TREATMENT</h2>
+					<h6>Coloring your hair is one of the easiest ways to transform your look. Some people do it as a form of self-expression while others do so just because they’re bored with their current look.
+					If you’ve been looking for reasons to dye your hair,come and take a look at our extensive hair color choices!</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+			</div>
+			<div class="haircoloring">
+				<div class="hairsalon-text">
+					<h2>BEARD SCULPTING</h2>
+					<h6>Beard shaping involves taming and shaping your facial hair (beard) in a way that suits your preferences, personality, and facial shape. 
+					Everyone knows that it is not that easy to grow and maintain a beard. Some issues that you may experience are dirt and bacteria buildup as well as clogged pores. You can prevent those through proper beard shaping done by our very own technicians!.</h6>
+					
+					<h4 style="text-align:center">
+					<a class="button" href="#">Book Appointment</a>
+					</h4>
+				</div>
+				<img src="images/beardmen.jpg" alt="haircoloring"/>
+			</div>
+		</div>
+		
+	</section>
+	<!--footer-->
+	<footer class="footer">
+		<div class="container2">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Royalty Parlour</h4>
+					<ul>
+						<li><a href="index.html">Home</a></li> 
+						<li><a href="enquiry.html">Enquiry</a></li> 
+						<li><a href="aboutme.html">About Me</a></li> 
+						<li><a href="disclaimer.html">Disclaimer</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="hairsalon.html">Hair Salon</a></li> 
+						<li><a href="barbershop.html">Barbershop</a></li> 
+						<li><a href="nailsalon.html">Nail Salon</a></li> 
+						<li><a href="facialsandspa.html">Facials</a></li> 
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Contact Us</h4>
+					<ul>
+						<li><a href="#"></a>+60123456789</li>
+						<li><a href="#"></a>Ground Floor,Jalan Wan Alwi, 93350 Kuching,Sarawak,Malaysia</li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Acknowledgements</h4>
+					<ul>
+						<li><a href="https://www.pinterest.com/pin/723672233887368315/">Kids haircut Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/603130575112505046/">Men haircut Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/420171840241985831/">Hair coloring Image</a></li> 
+						<li><a href="https://www.pinterest.com/pin/313844667786022951/">Beard Shaping Image</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+</body>
+</html>
